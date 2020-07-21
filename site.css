@@ -1,0 +1,91 @@
+/*******************************************************
+  Author(s) / CWID / Team
+      - Michael Cingari / 889574562 / Quatro-Quatro
+
+  Assignment:
+      - In-Class Exercise 3
+
+  Due Date:
+      - July 20th, 2020
+
+  Institution / Course:
+      - CSUF / CPSC 349
+ -------------------------------------------------------
+  Question 1:
+      - Align navigation bar on the right side of
+      the page.
+
+  Status:
+      - Working
+
+  Notes:
+      - Items are aligned on the right side and is
+      styled to some degree but the background color
+      coversfrom the entire width of the screen.
+********************************************************/
+.navigation{
+  display: flex;
+  background: SeaShell;
+  padding: 5px;
+
+  box-sizing: border-box;
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: bold;
+
+  outline: 1px solid brown
+
+
+  /*
+
+  width: 800px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+
+  font-size: 3em;
+  text-align: center;
+
+  */
+
+}
+
+/*******************************************************
+  Author(s) / CWID / Team
+      - Michael Cingari / 889574562 / Quatro-Quatro
+
+  Assignment:
+      - In-Class Exercise 3
+
+  Due Date:
+      - July 20th, 2020
+
+  Institution / Course:
+      - CSUF / CPSC 349
+ -------------------------------------------------------
+  Question 2:
+      - Align 'Other Sites' section vertically and on
+      the right hand side of the page.
+
+  Status:
+      - Working
+
+  Notes:
+      - Items could be styled in a more preferable way
+      but it satisfies the criteria as of right now.
+********************************************************/
+.links{
+  display: flex;
+  background: brown;
+  padding: 5px;
+
+  box-sizing: border-box;
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+  font-weight: bold;
+
+  outline: 1px solid brown
+}
