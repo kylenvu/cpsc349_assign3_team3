@@ -2,9 +2,110 @@
 
 /* Layout 1 */
 
+/* .middle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main {
+  flex: 1 1 70%;
+}
+
+.navigation {
+  flex: 1 1 30%;
+}
+
+.links{
+  flex: 1 1 auto;
+} */
+
+
 /* Layout 2 */
+
+/* .middle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main {
+  flex: 0 1 50%;
+}
+
+.navigation {
+  flex: 0 1 50%;
+}
+
+.links {
+  align-self: flex-end;
+  flex: 1 1 auto;
+  writing-mode: vertical-rl;
+} */
 
 /* Layout 3 */
 
+/* body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+header {
+  flex: 1 1 100%;
+  order: -2;
+}
+
+footer {
+  flex: 1 1 auto;
+  order: -1;
+}
+
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navigation {
+  flex: 1 1 10%;
+  order: -1;
+}
+
+main {
+  flex: 1 1 50%;
+  padding: 10px 10px;
+}
+
+.links {
+  flex: 1 1 20%;
+} */
+
 /* Layout 4 */
 
+/* .middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h2 {
+  flex: 1 1 100%;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+p:nth-child(odd) {
+  font-weight: bold;
+  text-align: center;
+  width: 60%;
+}
+
+.navigation {
+  flex: 1 1 auto;
+}
+
+.links {
+  flex: 0 1 auto;
+} */
